@@ -1,0 +1,99 @@
+body {
+    background-image: linear-gradient(#FF5F6D,#FFC371);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    justify-content: center;
+    height: 1500px;
+    width: 1500px;
+    border: 10px solid black;
+    border-radius: 30px;
+    color:white;
+    text-align: center;
+    margin: auto;
+    margin-top: 700px;
+}
+
+#main-heading {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight:bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+form.example input[type=text] {
+    height:100px;
+    width:75%;
+    background-color: rgb(39, 20, 20);
+    color: white;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border: none;
+    padding-left: 15px;
+}
+  
+form.example button {
+    height:100px;
+    width: 15%;
+    background: #195d95;
+    color: white;
+    font-size: 45px;
+    border: 1px solid grey;
+    border-left: none;
+    margin-left:0px;
+}
+  
+form.example button:hover {
+    background: #0b7dda;
+}
+
+.sub-container {
+    opacity: 0.5px;
+    width:1300px;
+    height:900px;
+    color:black;
+    margin-left:100px;
+    margin-top:100px;
+    margin-right:10px;
+}
+
+#sub-cont {
+    font-size:100px;
+    font-weight:bold;
+    font-family: 'Helvetica Neue';
+    color:red;
+}
+
+#city {
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0px;
+}
+  
+#date {
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0px;
+}
+
+#temp {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 250px;
+    font-weight: bolder;
+    margin:0px;
+}
+
+#description {
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin:50px;
+}

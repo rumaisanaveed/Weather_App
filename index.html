@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <p id="main-heading">Weather App</p>
+      <form class="example" action="">
+        <input
+          type="text"
+          placeholder="Search.."
+          name="search"
+          id="search"
+          style="color: white"
+        />
+        <button type="submit" onclick="getWeather(event)">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+      <div class="sub-container" id="sub-cont"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
